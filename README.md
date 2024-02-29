@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Add live site URL here](https://xondamir-coder.github.io/advice-generator/)
+-   Live Site URL: [live site](https://xondamir-coder.github.io/advice-generator/)
 
 ## My process
 
