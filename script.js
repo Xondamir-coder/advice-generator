@@ -1,7 +1,9 @@
+// Elements
 const modalText = document.querySelector('.modal__text');
 const modalNumber = document.querySelector('.modal__number');
 const modalButton = document.querySelector('.modal__button');
 
+// Main function to get advice
 const getAdvice = async () => {
 	const URL = 'https://api.adviceslip.com/advice';
 	try {
@@ -20,6 +22,5 @@ const getAdvice = async () => {
 };
 getAdvice();
 
-modalButton.addEventListener('click', () => {
-	getAdvice();
-});
+// Event handling
+modalButton.addEventListener('click', getAdvice);
